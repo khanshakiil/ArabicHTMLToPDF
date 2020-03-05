@@ -1,0 +1,38 @@
+package util;
+/**
+ * You can download the PDFreactor Web Service Java wrapper from: 
+ * http://www.pdfreactor.com/download/get/?product=pdfreactor&type=webservice_clients&jre=false
+ */
+import java.io.FileOutputStream;
+
+import com.realobjects.pdfreactor.webservice.client.Configuration;
+import com.realobjects.pdfreactor.webservice.client.PDFreactor;
+import com.realobjects.pdfreactor.webservice.client.PDFreactorWebserviceException;
+import com.realobjects.pdfreactor.webservice.client.Result;
+
+public class PDFreactorSample {
+    
+    public static void main(String[] args) {
+        // Create new PDFreactor instance
+        PDFreactor pdfReactor = new PDFreactor("https://cloud.pdfreactor.com/service/rest");
+        // Create a new configuration object
+        Configuration config = new Configuration();
+        //Specify the input document for Windows systems
+        config.setDocument("http://www.pdfreactor.com/product/samples/textbook/textbook.html");
+        try {
+            // Render document and save result to result
+            Result result = pdfReactor.convert(config);
+            if (result != null) {
+                byte[] pdf = result.getDocument();
+                //Save the pdf at the desired location
+                FileOutputStream fos = new FileOutputStream("PDFreactor.pdf");
+                fos.write(pdf);
+                fos.close();
+            }
+        } catch (PDFreactorWebserviceException exception) {
+            Result result = exception.getResult();
+            System.err.println(result.getError());
+        } catch (Exception e) {
+        } 
+    }
+}

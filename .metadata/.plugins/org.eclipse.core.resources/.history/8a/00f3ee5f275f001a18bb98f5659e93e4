@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type="text/css">
+table.imagetable {
+	font-family: Arial Unicode MS;	
+	font-size:30px;
+	color:#333333;
+	
+	border-collapse: collapse;
+	width: 400px;
+	height: 300px;
+}
+table.imagetable th {
+	background:#b5cfd2 url('cell-blue.jpg');
+	border-width: 1px;
+	padding: 8px;
+	
+	border-color: #999999;
+}
+table.imagetable td {
+	background:#dcddc0 url('cell-grey.jpg');
+	align:center;
+	padding: 8px;
+	
+}
+#qrCode{
+width: 300px;
+height: 300px;
+}
+
+</style>
+</head>
+
+<body>
+<table>
+<tr>
+<td>01-01-2021</td></tr>
+</table>
+<center>
+<table class="imagetable">
+<tr align="left"><td align="center" dir="rtl" style="font-family: Noto Naskh Arabic">موصول</td></tr>
+<tr align="right"><td align="center" dir="rtl"><img src="E:\\qrcode.png" id="qrCode"></img></td> </tr>
+<tr align="right"><td align="center" dir="rtl" style="font-family: Noto Naskh Arabic">سعود </td></tr>
+<tr align="right"><td align="center" dir="rtl">Haraj</td></tr>
+<tr align="right"><td align="center" dir="rtl" style="font-family: Noto Naskh Arabic">تاريخ انتهاء الشهادة </td></tr>
+<tr><td>01/01/2021</td></tr>
+
+</table>
+</center>
+</body>
+
+</html>

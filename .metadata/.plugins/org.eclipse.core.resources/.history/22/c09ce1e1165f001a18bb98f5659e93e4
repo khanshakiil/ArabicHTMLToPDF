@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+</head>
+
+<body>
+
+
+<h2>This is a level h2 header.</h2>
+
+<h6>This is a level h6 header.  Pretty small!</h6>
+
+<p dir="rtl" style="font-family: Noto Naskh Arabic">موصول</p>
+
+<p align=center>Now I've aligned it in the center of the screen.</p>
+
+<p align=right>Now aligned to the right</p>
+
+<p><b>Bold text</b></p>
+
+<p><strong>Strongly emphasized text</strong>  Can you tell the difference vs. bold?</p>
+
+
+<h2>Unordered list</h2>
+<ul>
+  <li>First element</li>
+  <li>Second element</li>
+  <li>Third element</li>
+</ul>
+
+<table>
+<tr>
+<td>Lawrence of Arabia</td>
+<td dir="rtl" style="font-family: Noto Naskh Arabic">موصول</td>
+</tr>
+
+</table>
+</body>
+
+</html>

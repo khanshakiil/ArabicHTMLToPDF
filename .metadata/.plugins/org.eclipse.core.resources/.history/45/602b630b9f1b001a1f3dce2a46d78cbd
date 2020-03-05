@@ -1,0 +1,4 @@
+
+helpdesk.getSpecialist=getSpecialist
+helpdesk.createAppointment=createAppointment
+helpdesk.getAvailableBedCount=getAvailableBedCount

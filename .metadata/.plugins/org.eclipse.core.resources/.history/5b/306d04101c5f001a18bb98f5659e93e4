@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+table {
+margin: 60px;
+padding: 10px;
+
+}
+#qrCode{
+width: 50px;
+}
+</style>
+
+</head>
+
+<body>
+<center>
+<table >
+<tr>
+<img src="E:\\qrcode.png" id="qrCode"></img> </tr>
+<tr>
+<td dir="rtl" style="font-family: Noto Naskh Arabic">موصول</td>
+</tr>
+<tr>
+<td dir="rtl" style="font-family: Noto Naskh Arabic">تاريخ انتهاء صلاحية الشهادة </td>
+</tr>
+
+</table></center>
+</body>
+
+</html>
