@@ -5,7 +5,20 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-03-05T17:47:36Z</updated>
+  <updated>2020-03-06T04:41:20Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Spring I/O organizer and Spring trainer extraordinairre Sergi Almar</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/03/06/a-bootiful-podcast-spring-i-o-organizer-and-spring-trainer-extraordinairre-sergi-almar" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-03-06:3987</id>
+    <updated>2020-03-06T04:41:20Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks with &lt;a href="https://twitter.com/SergiAlmar"&gt;Sergi Almar (@sergiAlmar) &lt;/a&gt; about organizing one of the best JVM community shows in the business, Barcelona&amp;rsquo;s &lt;a href="https://springio.net/"&gt;Spring I/O&lt;/a&gt;, being a trainer, and so much more. &lt;/p&gt;
+&lt;iframe title="Spring I/O organizer and Spring trainer extraordinairre Sergi Almar " src="https://www.podbean.com/media/player/jvbuh-d5918d?from=usersite&amp;vjs=1&amp;skin=1&amp;fonts=Helvetica&amp;auto=0&amp;download=1" height="315" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Hoxton Service Release 3 (SR3) is available.</title>
     <link rel="alternate" href="https://spring.io/blog/2020/03/05/spring-cloud-hoxton-service-release-3-sr3-is-available" />
@@ -1464,24 +1477,6 @@ class GreetingResponse {&#xD;
 &lt;p&gt;We will send metadata to the service. We have two choices. If the connection to the RSocket connection is shared, then we&amp;rsquo;d want to send the metadata for each request. This is what we&amp;rsquo;ve done in this example, as it&amp;rsquo;s the more likely scenario. On the other hand, if you need to only authenticate once, then you can send the metadata in the establishment of the connection in &lt;code&gt;rSocketRequester&lt;/code&gt; bean. &lt;/p&gt;
 &lt;p&gt;We use the &lt;code&gt;RSocketRequester&lt;/code&gt; client in the event listener where we make a call to the &lt;code&gt;greetings&lt;/code&gt; route on the service. It&amp;rsquo;s basically the same as it&amp;rsquo;s always been, with the slight difference that we&amp;rsquo;re encoding metadata in the request for authentication. &lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ve only begun to scratch the service surface in this blog - watch the video for more details! :D &lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Announcing Spring Cloud Stream Horsham.SR2 (3.0.2.RELEASE) and Spring Cloud Hoxton.SR2</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/02/19/announcing-spring-cloud-stream-horsham-sr2-3-0-2-release-and-spring-cloud-hoxton-sr2" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Oleg Zhurakousky</name>
-    </author>
-    <id>tag:spring.io,2020-02-19:3964</id>
-    <updated>2020-02-19T09:39:51Z</updated>
-    <content type="html">&lt;p&gt;We are pleased to announce the release of the Spring Cloud Stream Horsham.SR2 (3.0.2.RELEASE) release train which is available as part of Spring Cloud Hoxton.SR2 (just released) and builds on Spring Boot 2.2.4 and Spring Cloud Function 3.0.2.RELEASE which was also just released.&lt;/p&gt;
-&lt;p&gt;Spring Cloud Stream Horsham.SR2 modules are available for use in the &lt;a href="https://repo.maven.apache.org/maven2/org/springframework/cloud/"&gt;Maven Central&lt;/a&gt; repository. &lt;/p&gt;
-&lt;p&gt;This release contains several fixes and enhancements primarily driven by user&amp;rsquo;s feedback, so thank you.&lt;br/&gt;For more details please follow these links:&lt;br/&gt;- &lt;a href="https://github.com/spring-cloud/spring-cloud-stream/issues?q=is%3Aclosed+milestone%3AHorsham.SR2"&gt;Spring Cloud Stream Core&lt;/a&gt;&lt;br/&gt;- &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-binder-rabbit/issues?q=is%3Aclosed+milestone%3AHorsham.SR2"&gt;Spring Cloud Stream Core Rabbit Binder&lt;/a&gt;&lt;br/&gt;- &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-binder-kafka/issues?q=is%3Aclosed+milestone%3AHorsham.SR2"&gt;Spring Cloud Stream Core Kafka Binder&lt;/a&gt;&lt;br/&gt;- &lt;a href="https://github.com/spring-cloud/spring-cloud-function/issues?q=is%3Aclosed+milestone%3A3.0.2.RELEASE"&gt;Spring Cloud Function&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;As mentioned, Spring Cloud Hoxton.SR2 was also released, but it only contains updates to Spring Cloud Stream and Spring Cloud Function.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As always, we welcome feedback and contributions, so please reach out to us on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-stream"&gt;Stackoverflow&lt;/a&gt; or &lt;a href="https://github.com/spring-cloud/spring-cloud-stream/"&gt;GitHub&lt;/a&gt; and or &lt;a href="https://gitter.im/spring-cloud/spring-cloud-stream"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

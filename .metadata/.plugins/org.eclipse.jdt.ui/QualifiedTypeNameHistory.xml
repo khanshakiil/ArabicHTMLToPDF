@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
-<fullyQualifiedTypeName name="com.example.demo.model.SpecialistRequest"/>
-<fullyQualifiedTypeName name="com.example.demo.model.SpecialistResponse"/>
-<fullyQualifiedTypeName name="com.hospital.model.SpecialistResponse"/>
-<fullyQualifiedTypeName name="org.springframework.boot.jdbc.DatabaseDriver"/>
-<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.hospital.service.SpecialistService"/>
 <fullyQualifiedTypeName name="com.hospital.repository.SpecialistRepository"/>
 <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
@@ -56,4 +44,20 @@
 <fullyQualifiedTypeName name="org.springframework.http.converter.StringHttpMessageConverter"/>
 <fullyQualifiedTypeName name="com.hospital.model.SpecialistList"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.XMLWorkerFontProvider"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.pipeline.css.CSSResolver"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.html.CssAppliers"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.pipeline.html.HtmlPipelineContext"/>
+<fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.XMLWorker"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.parser.XMLParser"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.pipeline.css.CssResolverPipeline"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.pipeline.html.HtmlPipeline"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.pipeline.end.PdfWriterPipeline"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.html.CssAppliersImpl"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.html.Tags"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.css.StyleAttrCSSResolver"/>
+<fullyQualifiedTypeName name="edu.umd.cs.findbugs.annotations.CreatesObligation"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayInputStream"/>
+<fullyQualifiedTypeName name="com.itextpdf.tool.xml.css.CssFile"/>
 </qualifiedTypeNameHistroy>

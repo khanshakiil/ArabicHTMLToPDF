@@ -1,8 +1,0 @@
-package com.hospital.service;
-
-public class SpecialistService {
-
-	public List<> getSpecialist(){
-		
-	}
-}

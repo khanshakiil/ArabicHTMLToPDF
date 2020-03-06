@@ -32,14 +32,14 @@ height: 300px;
 
 .title{
 	font-size: 40px;
-	
+	align:center;
 }
 </style>
 </head>
 
 <body>
 
-<div class="title" dir="rtl" style="font-family: Noto Naskh Arabic">موصول</div>
+<div class="title" align="center" dir="rtl" style="font-family: Noto Naskh Arabic">موصول</div>
 
 <center>
 <table class="imagetable">
